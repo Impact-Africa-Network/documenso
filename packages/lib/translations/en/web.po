@@ -155,8 +155,13 @@ msgstr "A secret that will be sent to your URL so you can verify that the reques
 
 #: apps/web/src/app/(dashboard)/settings/webhooks/[id]/page.tsx:196
 #: apps/web/src/app/(teams)/t/[teamUrl]/settings/webhooks/[id]/page.tsx:198
-msgid "A secret that will be sent to your URL so you can verify that the request has been sent by Documenso."
-msgstr "A secret that will be sent to your URL so you can verify that the request has been sent by Documenso."
+#~ msgid "A secret that will be sent to your URL so you can verify that the request has been sent by Documenso."
+#~ msgstr "A secret that will be sent to your URL so you can verify that the request has been sent by Documenso."
+
+#: apps/web/src/app/(dashboard)/settings/webhooks/[id]/page.tsx:196
+#: apps/web/src/app/(teams)/t/[teamUrl]/settings/webhooks/[id]/page.tsx:198
+msgid "A secret that will be sent to your URL so you can verify that the request has been sent by Roots Africa."
+msgstr "A secret that will be sent to your URL so you can verify that the request has been sent by Roots Africa."
 
 #: apps/web/src/components/forms/public-profile-form.tsx:198
 msgid "A unique URL to access your profile"
@@ -1182,8 +1187,8 @@ msgid "Do you want to duplicate this template?"
 msgstr "Do you want to duplicate this template?"
 
 #: apps/web/src/app/(dashboard)/settings/profile/delete-account-dialog.tsx:122
-msgid "Documenso will delete <0>all of your documents</0>, along with all of your completed documents, signatures, and all other resources belonging to your Account."
-msgstr "Documenso will delete <0>all of your documents</0>, along with all of your completed documents, signatures, and all other resources belonging to your Account."
+#~ msgid "Documenso will delete <0>all of your documents</0>, along with all of your completed documents, signatures, and all other resources belonging to your Account."
+#~ msgstr "Documenso will delete <0>all of your documents</0>, along with all of your completed documents, signatures, and all other resources belonging to your Account."
 
 #: apps/web/src/app/(dashboard)/documents/[id]/logs/document-logs-page-view.tsx:119
 msgid "Document"
@@ -1607,7 +1612,7 @@ msgstr "General"
 msgid "Go Back"
 msgstr "Go Back"
 
-#: apps/web/src/app/(unauthenticated)/verify-email/[token]/client.tsx:48
+#: apps/web/src/app/(unauthenticated)/verify-email/[token]/client.tsx:49
 #: apps/web/src/app/(unauthenticated)/verify-email/[token]/page.tsx:73
 #: apps/web/src/app/(unauthenticated)/verify-email/[token]/page.tsx:101
 #: apps/web/src/app/(unauthenticated)/verify-email/page.tsx:38
@@ -2567,6 +2572,10 @@ msgstr "Role"
 msgid "Roles"
 msgstr "Roles"
 
+#: apps/web/src/app/(dashboard)/settings/profile/delete-account-dialog.tsx:122
+msgid "Roots Africa will delete <0>all of your documents</0>, along with all of your completed documents, signatures, and all other resources belonging to your Account."
+msgstr "Roots Africa will delete <0>all of your documents</0>, along with all of your completed documents, signatures, and all other resources belonging to your Account."
+
 #: apps/web/src/app/(dashboard)/templates/template-direct-link-dialog.tsx:444
 #: apps/web/src/app/(signing)/sign/[token]/number-field.tsx:336
 #: apps/web/src/app/(signing)/sign/[token]/text-field.tsx:342
@@ -3243,11 +3252,14 @@ msgstr "The token was deleted successfully."
 msgid "The token you have used to reset your password is either expired or it never existed. If you have still forgotten your password, please request a new reset link."
 msgstr "The token you have used to reset your password is either expired or it never existed. If you have still forgotten your password, please request a new reset link."
 
-#: apps/web/src/app/(dashboard)/settings/webhooks/[id]/page.tsx:124
-#: apps/web/src/app/(teams)/t/[teamUrl]/settings/webhooks/[id]/page.tsx:128
 #: apps/web/src/components/(dashboard)/settings/webhooks/create-webhook-dialog.tsx:152
 msgid "The URL for Documenso to send webhook events to."
 msgstr "The URL for Documenso to send webhook events to."
+
+#: apps/web/src/app/(dashboard)/settings/webhooks/[id]/page.tsx:124
+#: apps/web/src/app/(teams)/t/[teamUrl]/settings/webhooks/[id]/page.tsx:128
+msgid "The URL for Roots Africa to send webhook events to."
+msgstr "The URL for Roots Africa to send webhook events to."
 
 #: apps/web/src/components/(dashboard)/settings/webhooks/delete-webhook-dialog.tsx:79
 msgid "The webhook has been successfully deleted."
@@ -3826,8 +3838,12 @@ msgid "Waiting for others to sign"
 msgstr "Waiting for others to sign"
 
 #: apps/web/src/app/(signing)/sign/[token]/no-longer-available.tsx:61
-msgid "Want to send slick signing links like this one? <0>Check out Documenso.</0>"
-msgstr "Want to send slick signing links like this one? <0>Check out Documenso.</0>"
+#~ msgid "Want to send slick signing links like this one? <0>Check out Documenso.</0>"
+#~ msgstr "Want to send slick signing links like this one? <0>Check out Documenso.</0>"
+
+#: apps/web/src/app/(signing)/sign/[token]/no-longer-available.tsx:61
+msgid "Want to send slick signing links like this one? <0>Check out Roots Africa.</0>"
+msgstr "Want to send slick signing links like this one? <0>Check out Roots Africa.</0>"
 
 #: apps/web/src/app/(profile)/profile-header.tsx:68
 msgid "Want your own public profile?"
@@ -4074,8 +4090,12 @@ msgid "When you click continue, you will be prompted to add the first available 
 msgstr "When you click continue, you will be prompted to add the first available authenticator on your system."
 
 #: apps/web/src/app/(profile)/p/[url]/page.tsx:139
-msgid "While waiting for them to do so you can create your own Documenso account and get started with document signing right away."
-msgstr "While waiting for them to do so you can create your own Documenso account and get started with document signing right away."
+#~ msgid "While waiting for them to do so you can create your own Documenso account and get started with document signing right away."
+#~ msgstr "While waiting for them to do so you can create your own Documenso account and get started with document signing right away."
+
+#: apps/web/src/app/(profile)/p/[url]/page.tsx:139
+msgid "While waiting for them to do so you can create your own Roots Africa account and get started with document signing right away."
+msgstr "While waiting for them to do so you can create your own Roots Africa account and get started with document signing right away."
 
 #: apps/web/src/app/(dashboard)/documents/_action-items/resend-document.tsx:126
 msgid "Who do you want to remind?"
@@ -4364,8 +4384,12 @@ msgid "Your documents"
 msgstr "Your documents"
 
 #: apps/web/src/app/(unauthenticated)/verify-email/[token]/client.tsx:40
-msgid "Your email has been successfully confirmed! You can now use all features of Documenso."
-msgstr "Your email has been successfully confirmed! You can now use all features of Documenso."
+#~ msgid "Your email has been successfully confirmed! You can now use all features of Documenso."
+#~ msgstr "Your email has been successfully confirmed! You can now use all features of Documenso."
+
+#: apps/web/src/app/(unauthenticated)/verify-email/[token]/client.tsx:40
+msgid "Your email has been successfully confirmed! You can now use all features of Roots Africa."
+msgstr "Your email has been successfully confirmed! You can now use all features of Roots Africa."
 
 #: apps/web/src/app/(dashboard)/settings/teams/team-email-usage.tsx:62
 msgid "Your email is currently being used by team <0>{0}</0> ({1})."
